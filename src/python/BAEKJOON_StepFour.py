@@ -31,18 +31,9 @@
 # print(max(list))
 # print(list.index(max(list))+1)
 
-# 4-5
-# N, M = map(int, input().split())
-# i, j, k = map(int, input().split())
-#
-# a = 0
-# one = []
-# two = []
-# three = []
-# four = []
-# five = []
-#
-# for a in range(1, M+1):
+4-5
+N, M = map(int, input().split())
+
 
 
 
@@ -79,6 +70,6 @@
 #
 # print(result)
 
-list = [1,2,3,4]
-for i in list:
-    print(i)
+# list = [1,2,3,4]
+# for i in list:
+#     print(i)
