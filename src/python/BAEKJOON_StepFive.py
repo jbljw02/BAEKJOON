@@ -5,3 +5,6 @@ S = list(input())
 i = int(input())
 
 print(S.index(i))
+
+
+
