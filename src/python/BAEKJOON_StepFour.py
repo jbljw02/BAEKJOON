@@ -31,12 +31,26 @@
 # print(max(list))
 # print(list.index(max(list))+1)
 
-4-5
-N, M = map(int, input().split())
+# 4-5
+# N, M = map(int, input().split())
+# basket = [0] * (N+1)
+# for _ in range(M):
+#     i,j,k = map(int, input().split())
+#     for n in range(i, j+1):
+#         basket[n] = k
+# for i in range(1, N+1):
+#     print(basket[i], end = ' ')
 
-
-
-
+# 4-6
+# N, M = map(int, input().split())
+# basket = []
+# for i in range(1, N+1):
+#     basket.append(i)
+# for _ in range(M):
+#     i, j = map(int, input().split())
+#     basket[i-1], basket[j-1] = basket[j-1], basket[i-1]
+# for i in range(len(basket)):
+#     print(basket[i], end = ' ')
 
 # 4-7
 # students = []
@@ -52,24 +66,36 @@ N, M = map(int, input().split())
 
 # 4-8
 # list = []
-# list_remain = []
+# count = {}
 # for i in range(10):
 #     n = int(input())
-#     list.append(n)
-#
-#     remain = n % 42
-#     list_remain.append(remain)
-#
-# result = 0
-# j = 0
-# for i in range(list_remain):
-#     for k in i:
-#         if list_remain[j] == k:
-#             result += 1
-#         j += 1
-#
-# print(result)
+#     value = n % 42
+#     list.append(value)
+# list = set(list)
+# print(len(list))
 
-# list = [1,2,3,4]
-# for i in list:
-#     print(i)
+# 4-9
+N, M = map(int, input().split())
+
+basket = []
+for i in range(1, N+1):
+    basket.append(i)
+
+# for i in range(M):
+    # i,j = map(int, input().split())
+
+
+print(basket)
+
+
+
+
+
+
+
+
+
+
+
+
+
