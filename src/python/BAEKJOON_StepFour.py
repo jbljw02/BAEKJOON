@@ -75,24 +75,17 @@
 # print(len(list))
 
 # 4-9
-N, M = map(int, input().split())
-
-basket = []
-for i in range(1, N+1):
-    basket.append(i)
-
-# for i in range(M):
-    # i,j = map(int, input().split())
-
-
-print(basket)
-
-
-
-
-
-
-
+# N, M = map(int, input().split())
+# basket = []
+# for a in range(1, N+1):
+#     basket.append(a)
+# for b in range(M):
+#     i, j = map(int, input().split())
+#     temp = basket[i-1:j]
+#     temp.reverse()
+#     basket[i-1:j] = temp
+# for c in range(N):
+#     print(basket[c], end=' ')
 
 
 
