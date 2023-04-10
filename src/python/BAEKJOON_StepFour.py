@@ -87,8 +87,14 @@
 # for c in range(N):
 #     print(basket[c], end=' ')
 
-
-
+# 4-10
+# N = int(input())
+# score = list(map(int, input().split()))
+# maxScore = max(score)
+# update_score = []
+# for i in range(len(score)):
+#     update_score.append(score[i] / maxScore * 100)
+# print(sum(update_score)/len(update_score))
 
 
 
