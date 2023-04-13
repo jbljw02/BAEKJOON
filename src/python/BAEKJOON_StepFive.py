@@ -1,10 +1,32 @@
 #### 5단계 ####
 
 # 5-1
-S = list(input())
-i = int(input())
+# S = list(input())
+# i = int(input())
+# print(S[i-1])
 
-print(S.index(i))
+# 5-2
+# S = list(input())
+# print(len(S))
 
+# 5-3
+# T = int(input())
+# S1 = list(input())
+# S2 = list(input())
+# S3 = list(input())
+# for i in range(T):
+#     print(S1[0] + S1[len(S1)-1])
+#     print(S2[0] + S2[len(S2)-1])
+#     print(S3[0] + S3[len(S3)-1])
 
+# 5-4
+# S = input()
+# print(ord(S))
 
+# 5-5
+# N = int(input())
+# a = list(map(int, input()))
+# result = 0
+# for i in range(N):
+#     result += a[i]
+# print(result)
