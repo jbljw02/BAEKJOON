@@ -30,3 +30,14 @@
 # for i in range(N):
 #     result += a[i]
 # print(result)
+
+# 5-6
+from string import ascii_lowercase
+alphabet = ascii_lowercase
+S = list(input())
+for i in alphabet:
+    if i in S:
+        print(S.index(i), end=' ')
+    else:
+        print(-1, end=' ')
+
