@@ -32,12 +32,39 @@
 # print(result)
 
 # 5-6
-from string import ascii_lowercase
-alphabet = ascii_lowercase
-S = list(input())
-for i in alphabet:
-    if i in S:
-        print(S.index(i), end=' ')
-    else:
-        print(-1, end=' ')
+# from string import ascii_lowercase
+# alphabet = ascii_lowercase
+# S = list(input())
+# for i in alphabet:
+#     if i in S:
+#         print(S.index(i), end=' ')
+#     else:
+#         print(-1, end=' ')
+
+# 5-7
+# T = int(input())
+# for i in range(T):
+#     R, S = input().split()
+#     list_s = list(S)
+#     int_r = int(R)
+#     result = ''
+#     for i in range(len(list_s)):
+#         result = list_s[i] * int_r
+#         print(result, end='')
+#     print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
