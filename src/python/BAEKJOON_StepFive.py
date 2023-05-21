@@ -52,19 +52,3 @@
 #         result = list_s[i] * int_r
 #         print(result, end='')
 #     print()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
